@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const [number,idea, show] = lines[i].split(',');
                 if (show.trim() === 'true') {
                     const listItem = document.createElement('li');
-                    listItem.textContent = idea;
+                    listItem.textContent = `${number}: ${idea}`;
                     ideasList.appendChild(listItem);
                 }
             }
