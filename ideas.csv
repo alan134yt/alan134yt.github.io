@@ -1,5 +1,5 @@
-idea,show
-Crear una app de tareas,true
-Aprender a tocar la guitarra,false
-Viajar a Japon,true
-Leer 20 libros al,false
+number,idea,show
+0001,Crear una app de tareas,true
+0002,Aprender a tocar la guitarra,false
+0003,Viajar a Japon,true
+0004,Leer 20 libros al,false

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const ideasList = document.getElementById('ideas-list');
             const lines = data.split('\n');
             for (let i = 1; i < lines.length; i++) {
-                const [idea, show] = lines[i].split(',');
+                const [number,idea, show] = lines[i].split(',');
                 if (show.trim() === 'true') {
                     const listItem = document.createElement('li');
                     listItem.textContent = idea;
