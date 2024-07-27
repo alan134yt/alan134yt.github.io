@@ -1,3 +1,5 @@
+
+
 function loadCSV() {
     fetch('https://alan134yt.github.io/ideas.csv')
         .then(response => response.text())
@@ -9,7 +11,7 @@ function loadCSV() {
                 if (columns.length >= 3) { // Ensure there are at least 3 columns
                     const idea = columns[1].trim();
                     const show = columns[2].trim().toLowerCase() === 'true'; // Convert to boolean
-                    console.log('Idea:', idea, 'Show:', show);
+                    //console.log('Idea:', idea, 'Show:', show);
                 } else {
                     console.error('Invalid row format:', row);
                 }
